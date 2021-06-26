@@ -1,0 +1,633 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;600&display=swap');
+@font-face {
+    font-family:'Rubik', sans-serif;
+    font-family: 'Miriam Libre', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    src: url(fonts/GveretLevinAlefAlefAlef-Regular.eot)format('embedded-onetype'); 
+    src: url(fonts/GveretLevinAlefAlefAlef-Regular.ttf)format('truetype'); ; 
+
+}
+    html{
+      width:1280px ;
+      margin: auto;
+       background-color:pink;
+       scroll-behavior: smooth;
+      }
+      body {
+        
+          font-family:'Rubik';
+          background-image: url("imag/Untitled-3.png"); 
+          background-color:#FFF2E9 ;
+          /* width:1280px; */
+      margin: 0px;
+          overflow-x: hidden;
+          
+      }
+      
+.header
+{
+width: 1280px;
+height: 90px;
+background-color: #FFF2E9;
+align-items: center;
+z-index: 1;
+border-bottom: solid white 15px ;
+margin-bottom: 0;
+
+}
+.header img{
+  height: 150px;
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 0;
+  margin-right: 0;
+  }
+  
+    #logo:hover {
+      background-color: #ddd;
+      color: black;
+    }
+   
+  .header
+  {
+  width: 1280px;
+  height:200px;
+  background-color: #FFF2E9;
+  z-index: 1;
+  border-bottom: solid white 15px  ;
+  
+  }
+  
+ 
+nav.nav-bar{
+    z-index: 1;
+    position: fixed;
+    background-color: #a5d9e9;
+    border-radius: 20px;
+    width: 1000px;
+    padding-top: 0px;
+    margin-top: 10px;
+    margin-right: 270px;
+  
+}
+
+
+.nav-bar  a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    font-size:18;
+    background-color: #a5d9e9;
+     padding:5px 15px;
+     border-right: 00.5px solid black;
+     font-family: 'Heebo';
+     font-weight: bold;
+    
+    }
+      #notactive a:hover{
+
+background-color: rgb(151, 151, 151);
+color: rgb(117, 117, 117);
+text-decoration: none;
+    }
+   
+    .nav-bar a:hover{
+    text-decoration:underline;
+      background-color:  rgb(29, 5, 87);
+    color: white;
+    transition: 0.3s ease-out;
+   
+  }
+  .nav-bar a.page{
+
+   background-color: rgb(0, 156, 0);
+   color: white;
+
+  }
+ 
+        .title 
+        {
+        font-family:'heebo' ; 
+        font-weight: bold;
+        text-align: center;
+        font-size: 40px;
+        margin-bottom:20px;
+      color:  rgb(29, 5, 87);
+        
+        }
+        h5.title{
+
+            font-family:'heebo' ; 
+            font-weight: bold;
+            text-align: center;
+            font-size: 40px;
+            margin-bottom:20px;
+           padding-left: 1%;
+          color:  rgb(29, 5, 87);
+
+        }
+        
+        .secTitle{
+        
+        text-align: center;
+        font-size: 20px;
+        margin-right:17%;
+        }
+      
+
+.container{
+
+padding-top: 60px;
+
+float: right;
+   
+}
+.container img {
+height:550px;
+width: 1280px;
+padding: 0;
+margin: auto 0;
+
+}
+
+.content h1 {
+position:absolute;
+font-size: 30px;
+top:38%;
+color: white;
+width: 100%;
+
+
+}
+#yourmoments{
+
+
+    margin-right:20%;
+    
+    }
+    
+
+.content p {
+
+   position:absolute;
+   font-size: 50px;
+   top: 40%;
+   right:0;
+   color: white;
+   width: 100%;
+   font-weight: bold;
+}
+    
+
+/* main content home page */
+#starButton:hover
+{
+background-color:rgb(29, 5, 87);
+color:white ; 
+font-size:35px ;
+text-decoration: underline;
+transition: 0.3s ease-out;
+}
+
+#starButton{
+background-color: #BBBBFF;
+border:2px solid #6E6EFF;
+border-radius: 0px 30px;
+font-size: 30px;
+font-weight: bold;
+padding: 15px 20px;
+text-align: center;
+display: block;
+margin-left: auto;
+margin-right: auto;
+
+}
+
+
+
+/* חמשת המובילים */
+.top1{
+
+position: relative;
+
+}
+.top1 img{
+height: 120px;
+width: 360px;
+margin-right: 200px;
+
+}
+
+.top1 a{
+position: absolute;
+top: 50px;
+right: 30px;
+text-decoration: none;
+color: black;
+font-size: 18px;
+font-weight: bold;
+margin-right: 200px;
+}
+.top1 a:hover{
+
+    text-decoration:underline;
+    font-size: 20px;
+    transition: 0.3s ease-out;
+}
+.top2{
+
+    position: relative;
+    
+    }
+    .top2 img{
+    height: 120px;
+    width: 360px;
+    margin-right: 300px;
+    
+    }
+    
+    .top2 a{
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:300px;
+    }
+    .top2 a:hover{
+    
+        text-decoration:underline;
+        font-size: 20px;
+        transition: 0.3s ease-out;
+    }
+    .top3{
+
+        position: relative;
+        
+        }
+        .top3 img{
+        height: 120px;
+        width: 360px;
+        margin-right: 400px;
+
+        
+        }
+        
+        .top3 a{
+        position: absolute;
+        top: 50px;
+        right: 30px;
+        text-decoration: none;
+        color: black;
+        font-size: 18px;
+        font-weight: bold;
+        margin-right: 400px;
+        }
+        .top3 a:hover{
+        
+            text-decoration:underline;
+            font-size: 20px;
+            transition: 0.3s ease-out;
+        }
+
+        .top4{
+
+            position: relative;
+            
+            }
+            .top4 img{
+            height: 120px;
+            width: 360px;
+            margin-right: 500px;
+            
+            }
+            
+            .top4 a{
+            position: absolute;
+            top: 50px;
+            right: 30px;
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+            font-weight: bold;
+            margin-right: 500px;
+            }
+            .top4 a:hover{
+            
+                text-decoration:underline;
+            font-size: 20px;
+            transition: 0.3s ease-out;
+            
+            }
+
+            .top5{
+
+                position: relative;
+                
+                }
+                .top5 img{
+                height: 120px;
+                width: 380px;
+                margin-right: 600px;
+                }
+                
+                .top5 a{
+                position: absolute;
+                top: 50px;
+                right: 30px;
+                text-decoration: none;
+                color: black;
+                font-size: 18px;
+                font-weight: bold;
+                margin-right: 600px;
+                }
+                .top5 a:hover{
+                
+                    text-decoration:underline;
+                    font-size: 20px;
+                    transition: 0.3s ease-out;
+                }
+            
+
+
+
+/* תפריט גילאים תמונות */
+
+img#age10{
+
+height: 200px;
+width: 200px;
+margin-right:170px;
+}
+a#titleage10{
+
+    height: 200px;
+    width: 200px;
+    margin-right:170px;
+    margin-bottom: 0;
+
+}
+img#age1018{
+
+    height: 200px;
+    width: 200px;
+    margin-right:25px;
+    }
+  
+    img#age1820{
+        height: 200px;
+        width: 200px;
+        margin-right:25px;
+        }
+        
+        img#age2030{
+
+            height: 200px;
+            width: 200px;
+            margin-right:25px;
+            
+            }
+            img#age3040{
+
+                height: 200px;
+                width: 200px;
+                margin-top: 30px ;
+                margin-right:290px;
+                }
+               
+                img#age4050{
+                    height: 200px;
+                    width: 200px;
+                    margin-top: 30px ;
+                    margin-right: 30px;;
+                    }
+                  
+                    img#age50{
+
+                        height: 200px;
+                        width: 200px;
+                        margin-top: 30px ;
+                        margin-right:30px;
+                        }
+
+                     
+#age10:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/10mouseover.png");
+
+ 
+}
+
+    #age1018:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/1018mouseover.png");
+
+}
+    #age1820:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/1820mouseover.png");
+
+}
+    #age2030:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/2030mouseover.png");
+}
+
+    #age3040:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/3040mouseover.png");
+}
+
+    #age4050:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/4050mouseover.png");
+
+}
+    #age50:hover
+{
+    width:220px;
+    height:220px;
+    content:url("imag/50mouseover.png");
+
+}
+
+
+
+
+
+/* רגעי היום הולדת שלכם */
+
+.birthdayMoments img{
+position: relative;
+width: 90%;
+height: 500px;
+top: 5%;
+padding: 5%;
+
+}
+.birthdayMoments .birthdayMoments2
+{
+
+top: 5%;
+text-align: center;
+font-weight: bold;
+
+float: right;
+
+}
+.birthdayMoments{
+
+    position: relative;
+}
+
+ .birthdayMoments .birthdayMoments2 img{
+position: absolute;
+padding-right: 60%;
+height: 400px;
+width:280px;
+float:left;
+top: 16%;
+left: 10%;
+}
+.birthdayMoments .birthdayMoments2 h5{
+    float: right;
+    position: absolute;
+    top:13%;
+    margin-right:  30%;
+    font-size: 40px;
+    font-weight: bold;
+}
+.birthdayMoments .birthdayMoments2 p{
+    
+    float: right;
+    position: absolute;
+    top: 35%;
+    margin-right:  30%;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+p{
+    margin-right:  30%;
+    margin-top: 40px;
+    text-align: right;
+font-weight:normal;
+    font-size: 20px;
+
+
+}
+
+
+
+
+.line img{
+margin: 50px 300px 20px 300px;
+height: 270px;
+width: 650px;
+}
+
+
+/* footer */
+
+.footer-container{
+
+    background-color:rgb(29, 5, 87);
+padding:2rem 4rem;
+width: 90%;
+display:flex;
+  }
+  .footer{
+width: 100%;
+height: auto;
+background-color:rgb(29, 5, 87);
+color: white;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+
+  }
+  .footer-heading{
+
+display: flex;
+flex-direction: column;
+margin-right: 4rem;
+  }
+
+  .footer-heading h4{
+
+font-size: 20px;
+  }
+
+  .footer-heading a{
+color: white;
+text-decoration: none;
+margin-bottom: 0.5rem;
+font-family: 'heebo';
+  }
+
+  .footer-heading a:hover
+  {
+color: red;
+transition: 0.3s ease-out;
+text-decoration: underline;
+
+  }
+
+#skip_to_content{
+  
+display: inline-block;
+position: relative;
+width:150px;
+height:auto;
+
+color: white;
+overflow: hidden;
+
+}
+
+#skip_to_content a{
+
+display: block;
+position: relative;
+width: 1px;
+height: 1px;
+overflow: hidden;
+
+}
+#skip_to_content a:focus , #skip_to_content a:active{
+    width:150px;
+
+    height: 40px;
+    background-color: salmon;
+    overflow: visible;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 3px;
+    font-family: 'rubik';
+font-weight: bold;
+  
+
+}

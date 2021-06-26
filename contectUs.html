@@ -1,0 +1,215 @@
+<!doctype html>
+<html dir="rtl" lang="he">
+
+<head>
+    <meta charset="utf-8" />
+
+    <title>סופרייז!- צור קשר </title>
+    <link rel="icon" type="image/gif/jpg" herf="image/parthaticon.jpg" />
+
+    <meta name="description" content="בעמוד זה ניתן ליצור קשר עם יוצרי העמוד בנושאים שונים" />
+    <link rel="stylesheet" href="stylecontectus.css" />
+    <meta name="keywords" content="צור קשר, סופרייז!, תוכן הפנייה" />
+    <link rel="icon" type="image/jpeg/png" href="imag/תמונהטייטל.jpg" sizes="20x20">
+    <meta name="author" content="צור קשר, סופרייז! " />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="myStyle.css"/>
+
+
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="skip_to_content">
+
+        <a href="#maincontent">דלג לתוכן העמוד</a>
+        
+        </div>
+    <header class="header">
+        <div>
+            <img id="logo" src="imag/לוגו אתר.png" alt="אתר סופרייז!" height="300px" width="500px">
+        </div>
+        <nav class="nav-bar" role="navigation">
+            <ul>
+                <ii><a class="page" href="index.html">דף הבית</a> </ii>
+                <ii><a href="surpriseguide.html"> המדריך למפתיע </a> </ii>
+                <ii><a href="Age10.html">עד גיל 10</a></ii>
+                <ii><a href="Age18-20.html">גיל 10-18</a></ii>
+                <ii><a href="18-20.html">גיל 18-20</a></ii>
+                <ii><a href="10.html">גיל 20-30</a></ii>
+                <ii><a href="10.html">גיל 30-40</a></ii>
+                <ii><a href="10.html">גיל 40-50</a></ii>
+                <ii> <a href="10.htm">גיל 50+</a></ii>
+            </ul>
+        </nav>
+
+    </header>
+    <div>
+        <nav id="bread-menu">
+            <ul class="breadcrumb">
+                <li><a href="#">דף הבית </a></li>
+                <li>צור קשר</li>
+            </ul>
+        </nav>
+    </div>
+    <main id="maincontent">
+    <div class="title-line">
+        <div class="lines" data-content="צרו קשר איתנו"></div>
+    </div>
+
+
+    
+ 
+    <from aria-label="טופס הזנת פרטים אישיים ליצירת קשר ">
+        <input type="hidden" id="myEmail" name="email" value="roniebenezra@gmail.com" />
+        <p> <h1> צרו איתנו קשר </h1> </p>
+        <div id="up">
+            <div class="rigth">
+        <label for="fullname"> שם מלא:(חובה) </label> </> <br />
+        <input type="text" name="fullname " id="fullname" required aria-required="true" /> <br /> <br />
+
+        <lebel for="telephone"> מספר טלפון:(חובה)</lebel> <br />
+        <input type="tell" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{3}" required aria-label="הזינו את מספר הטלפון הנייד" />  <br />
+        
+   
+        <label for="email"> כתובת מייל:(חובה)</label> </> <br />
+        <input type="email" name="usremail" id="usremail" required aria-required="true" aria-label=" הזינו את כתובת המייל שלכם" /><br />
+    </div>
+    <div class="left">
+        <label for="birhtday"> תאריך יום הולדת החוגג/ת :</label> <br />
+        <input type="date" name="bday" /> <br />
+
+        <div class="details">איזור מגורים</div>
+        <select id="home">
+            <option value="1">מחוז הצפון</option>
+            <option value="2">מחוז חיפה</option>
+            <option value="3" selected>מחוז המרכז</option>
+            <option value="4">מחוז תל אביב</option>
+            <option value="5">מחוז ירושלים</option>
+            <option value="6">מחוז הדרום</option>
+            <aria-label =" type="text" name="openlist" id="מחוז מרכז" checked "/>
+        </div>
+        </div>
+        </select>
+        <br />
+        <!--<div class="position-gender">
+        <p class="details">מגדר</p>-->
+        <fieldset>
+            <legend> מגדר</legend>
+            <input type="radio" class="details" name="female" />אישה<br />
+            <input type="radio" class="details" name="male" />גבר<br />
+            <input type="radio" class="details" name="ohter" />אחר<br />
+        </fieldset>
+        </div>
+    </div>
+        <br />
+        <div id="down">
+        <label for="subject" class="details">
+            נושא הפנייה
+            <br />
+            <input type="text" id="subject" />
+        </label>
+        <br />
+        <label for="youropinion"> תוכן הפנייה</label> <br />
+        <textarea id="youropinion" rows="10">  </textarea>
+        <br />
+        <label for="send">
+            <input type="submit" id="send" value=" שליחה " />
+
+
+        </label>
+        <div id="feedback"></div>
+    </from>
+</div>
+    <onfocus>
+        <!--<button type="button" onclick="alert('aria-live=polite')" >סיימתי </button>-->
+        <div role="alert" id="error" aria-live="polite">
+            <ul>
+                <li>
+                    <b id="phonenumber"> שגיאה במספר הטלפון שהוזן</b>
+                    <p id="phoneDescription"> אנא הזינו מספר טלפון בעל עשר ספרות בלבד</p>
+                </li>
+                <li>
+                    <b id="email"> שגיאה בכתובת המייל שהוזנה</b>
+                    <p id="emailDescription"> נא הזינו את כתובת המייל שוב</p>
+                </li>
+            </ul>
+        </div>
+    </onfocus>
+</main>
+    <footer class="footer" role="contentinfo">
+        <nav>
+            <div class="footer-container">
+           <div class="footer">
+              <div class="footer-heading" > 
+             <h4>דף הבית</h4>
+                   
+                    <a href="index.html">דף הבית</a>
+                  
+                 
+                </div>
+                <div class="footer-heading" > 
+                <h4>עד גיל 10</h4>
+                      
+                       <a href="Age10.html"> עד גיל 10 </a>
+                       <a href="Age10.html#coverstory">עד גיל 10 סיפור כיסוי
+                       <a href="Age10.html#consept"> עד גיל 10 מסיבות קונספט</a>
+                       <a href="Age10.html#diy">עד גיל 10 DIY</a>
+               
+
+
+
+                   </div>
+                   <div class="footer-heading" > 
+                   <h4>גיל 18-20</h4>
+                         
+                          <a href="Age18-20.html">גיל 18-20</a>
+                          <a href="Age18-20.html#coverstory">  גיל 18-20 סיפור כיסוי</a>
+                          <a href="Age18-20.html#consept">גיל 18-20 מסיבות קונספט</a>
+                          <a href="Age18-20.html#diy">גיל 18 עד 20 DIY</a>
+                         
+  
+                      </div>
+                      <div class="footer-heading" >
+                   <h4>המדריך למפתיע</h4>
+                   
+                    <a href="surpriseguide.html"> המדריך למפתיע</a>
+                    <a href="surpriseguide.html#place">בחירת מקום</a>
+                    <a href="surpriseguide.html#invite">רשימת מוזמנים</a>
+                    <a href="surpriseguide.html#food">הזמנת פעילות\מזון</a>
+                    <a href="surpriseguide.html#Concept">מסיבות קונספט</a>
+                    <a href="surpriseguide.html#equipment">ציוד</a>
+                    <a href="surpriseguide.html#noforget">לא לשכוח</a>
+
+
+                </div>
+                <div class="footer-heading" >
+                <h4>צור קשר</h4>
+                      
+                       <a href="contectUs.html">צור קשר</a>
+                     
+            
+
+
+                   </div>
+                   <div class="footer-heading" > 
+                   <h4>אודות</h4>
+                         
+                          <a href="about.html">אודות </a>
+                        
+  
+                      </div>
+                  
+               </div>
+            </div>
+        </nav>
+    </footer>
+
+
+</body>
+</html>

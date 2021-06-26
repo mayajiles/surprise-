@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Miriam+Libre&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;600&display=swap');
+@font-face {
+    font-family:'Rubik', sans-serif;
+    font-family: 'Miriam Libre', sans-serif;
+    font-family: 'Heebo', sans-serif;
+    src: url(fonts/GveretLevinAlefAlefAlef-Regular.eot)format('embedded-onetype'); 
+    src: url(fonts/GveretLevinAlefAlefAlef-Regular.ttf)format('truetype'); ; 
+
+}
+    html{
+      width:1280px ;
+      
+      margin: auto;
+       background-color:pink;
+      }
+      body {
+        
+          font-family:'Rubik';
+          background-image: url("imag/Untitled-3.png"); 
+          background-color:#FFF2E9 ;
+          height: auto;
+          /* width:1280px; */
+      margin: 0px;
+          overflow-x: hidden;
+          
+      }
+      
+.header
+{
+width: 1280px;
+height: 90px;
+background-color: #FFF2E9;
+align-items: center;
+z-index: 1;
+border-bottom: solid white 15px ;
+margin-bottom: 0;
+
+}
+.header img{
+  height: 150px;
+  width: 300px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 0;
+  margin-right: 0;
+  }
+  
+    #logo:hover {
+      background-color: #ddd;
+      color: black;
+    }
+   
+  .header
+  {
+  width: 1280px;
+  height:200px;
+  background-color: #FFF2E9;
+  z-index: 1;
+  border-bottom: solid white 15px  ;
+  
+  }
+  
+ 
+nav.nav-bar{
+  z-index: 1;
+  position: fixed;
+  background-color: #a5d9e9;
+  border-radius: 20px;
+  width: 1000px;
+  padding: 1px;
+  margin-top: 10px;
+  margin-right: 270px;
+
+}
+
+
+.nav-bar  a{
+  text-decoration: none;
+  color: black;
+  text-align: center;
+  font-size:18;
+  background-color: #a5d9e9;
+   padding:5px 10px;
+   border-right: 00.5px solid black;
+   font-family: 'Heebo';
+   font-weight: bold;
+  
+  }
+ 
+  .nav-bar a:hover{
+  text-decoration:underline;
+  background-color: #ddd;
+  color: black;
+ 
+}
+.nav-bar a.page{
+
+  background-color:#0000FF ;
+  color: white;
+
+}  
+
+    h1 {
+        margin: auto;
+           color: #AA6363;
+           font-size: 70px;
+           text-align: center;
+         
+       }
+
+
+ 
+#up{
+
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    right: 69px;
+
+}
+.rigth{
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: 200px;
+  
+}
+.rigth input{
+
+    margin: 5px;
+
+}
+.left{
+
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin-right: 200px;
+
+}
+#down{
+width:500px;
+    padding-top: 83px;
+    padding-right: 195px;
+    margin-left:50%;
+}
+#youropinion{
+
+width:500px;
+height: 200px;
+
+}
+
+
+.footer-container{
+
+  background-color:rgb(29, 5, 87);
+padding:2rem 4rem;
+width: 90%;
+display:flex;
+}
+.footer{
+width: 100%;
+height: auto;
+background-color:rgb(29, 5, 87);
+color: white;
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+margin: 0 auto;
+
+}
+.footer-heading{
+
+display: flex;
+flex-direction: column;
+margin-right: 4rem;
+}
+
+.footer-heading h4{
+
+font-size: 20px;
+}
+
+.footer-heading a{
+color: white;
+text-decoration: none;
+margin-bottom: 0.5rem;
+font-family: 'heebo';
+}
+
+.footer-heading a:hover
+{
+color: red;
+transition: 0.3s ease-out;
+text-decoration: underline;
+
+}
+
+#skip_to_content{
+  
+  display: inline-block;
+  position: relative;
+  width:150px;
+  height:auto;
+  
+  color: white;
+  overflow: hidden;
+  
+  }
+  
+  #skip_to_content a{
+  
+  display: block;
+  position: relative;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  
+  }
+  #skip_to_content a:focus , #skip_to_content a:active{
+      width:150px;
+  
+      height: 40px;
+      background-color: salmon;
+      overflow: visible;
+      text-decoration: none;
+      font-size: 20px;
+      color: black;
+      padding: 3px;
+      font-family: 'rubik';
+  font-weight: bold;
+    
+  
+  }
